@@ -1,0 +1,74 @@
+.password-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #b6c3ca;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .password-item {
+    width: 400px;
+    margin: 10px;
+  }
+}
+.password-card {
+  display: flex;
+  align-items: center;
+}
+.password-card {
+  background-color: ;
+  padding: 10px;
+}
+.website-logo-container {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.website-logo {
+  color: #ffffff;
+
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+}
+.password-info-card {
+  margin-left: 10px;
+}
+.password-details {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.stars-image {
+  height: 20px;
+}
+.delete-button {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.delete-image {
+  height: 30px;
+}
+
+.green {
+  background-color: #10b981;
+}
+.red {
+  background-color: #b91c1c;
+}
+.blue {
+  background-color: #0b69ff;
+}
+.orange {
+  background-color: #f97316;
+}
